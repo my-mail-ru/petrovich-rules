@@ -100,7 +100,7 @@ lastname:
       mods: [-ой, -ой, -у, -ой, -ой]
 
     - gender: androgynous
-      test: [га, ка, ха, ча, ща, жа, ша]
+      test: [га, ка, ха, ча, ща, жа]
       mods: [-и, -е, -у, -ой, -е]
 
     - gender: androgynous
@@ -210,10 +210,6 @@ firstname:
       mods: [--ла, --лу, --ла, --лом, --ле]
 
     - gender: male
-      test: [яша]
-      mods: [-и, -е, -у, -ей, -е]
-
-    - gender: male
       test: [шота]
       mods: [., ., ., ., .]
 
@@ -239,10 +235,15 @@ firstname:
       mods: [-я, -ю, -я, -ем, -е]
 
     - gender: androgynous
-      test: [га, ка, ха, ча, ща, жа]
+      test: [га, ка, ха, ча, ща]
       mods: [-и, -е, -у, -ой, -е]
 
-    - gender: female
+    - gender: male
+      test: [жа]
+      mods: [-и, -е, -у, -ей, -е]
+
+
+    - gender: androgynous
       test: [ша]
       mods: [-и, -е, -у, -ей, -е]
 
