@@ -19,11 +19,12 @@ lastname:
         - мелик
         - вар
         - фон
+        - балк
       mods: [., ., ., ., .]
       tags: [first_word]
 
     - gender: androgynous
-      test: [дюма, тома, дега, люка, ферма, гамарра, петипа, шандра, скаля, каруана]
+      test: [дюма, тома, дега, люка, ферма, гамарра, петипа, шандра, скаля, каруана, сан]
       mods: [., ., ., ., .]
 
     - gender: androgynous
@@ -31,12 +32,20 @@ lastname:
       mods: [., ., ., ., .]
 
     - gender: androgynous
-      test: [вий, сой, цой, хой]
+      test: [вий, сой, цой, хой, кий]
       mods: [-я, -ю, -я, -ем, -е]
 
     - gender: androgynous
       test: [я]
       mods: [., ., ., ., .]
+    
+    - gender: male
+      test: [заяц]
+      mods: [--йца, --йцу, --йца, --йцем, --йце]
+
+    - gender: male
+      test: [швец]
+      mods: [а, у, а, ом, е]
 
   suffixes:
     - gender: female
@@ -128,6 +137,10 @@ lastname:
       mods: [а, у, а, ом, е]
 
     - gender: male
+      test: [лынец]
+      mods: [--ца, --цу, --ца, --цом, --це]
+
+    - gender: male
       test: [ынец, обец]
       mods: [--ца, --цу, --ца, --цем, --це]
 
@@ -188,8 +201,16 @@ lastname:
       mods: [а, у, а, ом, е]
 
     - gender: male
-      test: [в, н]
+      test: [в, тин]
       mods: [а, у, а, ым, е]
+
+    - gender: male
+      test: [н]
+      mods: [а, у, а, ом, е]
+
+    - gender: male
+      test: [дж]
+      mods: [а, у, а, ем, е]
 
     - gender: male
       test: [б, г, д, ж, з, к, л, м, п, р, с, т, ф, х]
@@ -280,8 +301,20 @@ firstname:
       mods: [-я, -ю, -я, -ем, -и]
 
     - gender: male
+      test: [ый]
+      mods: [--ого, --ому, --ого, --ым, --ом]
+
+    - gender: male
       test: [й]
       mods: [-я, -ю, -я, -ем, -е]
+
+    - gender: male
+      test: [ец]
+      mods: [--ца, --цу, --ца, --цом, --це]
+
+    - gender: male
+      test: [ек, ёк]
+      mods: [--ька, --ьку, --ька, --ьком, --ьке]
 
     - gender: male
       test: [б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч]
